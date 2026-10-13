@@ -1,0 +1,41 @@
+{
+ "exe": "D:\\git_repo\\Strata\\engine\\strata.exe",
+ "args": [
+  "--pack",
+  "D:\\git_repo\\Strata-data\\packs\\iq3_s",
+  "--native",
+  "D:\\git_repo\\Strata-data\\models\\IQ3_S\\Qwen3.8-Flash-Next-GSQ-RCO-IQ3_S-00001-of-00002.gguf",
+  "--ple-gguf",
+  "D:\\git_repo\\Strata-data\\models\\IQ3_S\\Qwen3.8-Flash-Next-GSQ-RCO-IQ3_S-00002-of-00002.gguf",
+  "--expert-profile",
+  "D:\\git_repo\\Strata\\data\\expert-profile.bin",
+  "--expert-cache",
+  "auto",
+  "--prefill",
+  "auto",
+  "--spec",
+  "4",
+  "--mtp",
+  "D:\\git_repo\\Strata-data\\mtp\\rt",
+  "--max-context",
+  "262144",
+  "--kv",
+  "int8",
+  "--kv-resident",
+  "32768",
+  "--spec-min-p",
+  "0.5",
+  "--pool-workers",
+  "12"
+ ],
+ "cwd": "D:\\git_repo\\Strata",
+ "tokenizer": "D:\\git_repo\\Strata-data\\packs\\iq3_s\\tokenizer",
+ "model_name": "qwen3.8-flash-next-iq3_s",
+ "log": "D:\\git_repo\\Strata\\strata-iq3_s.log",
+ "lib_dirs": [
+  "D:\\git_repo\\Strata\\.venv\\Lib\\site-packages\\nvidia\\cu13\\bin\\x86_64"
+ ],
+ "port": 8080,
+ "gpu": 0,
+ "gpus_asked": true
+}
